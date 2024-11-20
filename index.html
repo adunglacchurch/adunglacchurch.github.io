@@ -30,10 +30,10 @@ position: sticky;
 top: 0;
 z-index: 1;
 background-color: #ffffff;
-padding: 14px;
+padding: 10px;
 padding-bottom: 20px;
 /*text-align: center;*/
-border-bottom: 3px solid #d4af37; /* vàng ánh kim */
+border-bottom: 2px solid #d4af37; /* vàng ánh kim */
 }
 #toggle-icon{
     font-size:x-large;
@@ -277,11 +277,7 @@ table:nth-of-type(3) td {
     text-align: right;
 
 }
-#tenchurch{
-    color:#ddc168;
-    font-size: 14px;
-    transform:scaleY(2);
-}      
+      
 
 /* Ẩn menu văn bản khi kích thước màn hình nhỏ hơn 600px cho sec1*/
 @media (max-width: 600px) {
@@ -319,16 +315,13 @@ table:nth-of-type(3) td {
 <body>
 <!-- Header -->
 <header class="sticky">
-    
     <i id="toggle-icon" class="fa fa-bars menu-icon"></i>
-    <span id="tenchurch">&nbsp;<b> ST. ANDREW DUNG-LAC CATHOLIC CHURCH </b></span>
+    <a> &nbsp;<span style="color:#ddc168;font-size: 0.8em;"><b>ST. ANDREW DUNG-LAC CATHOLIC CHURCH</b></span></a>
     <div style="float:right;">
         <button data-headphone-mau ='0' id="headphone" onclick="readSelectedText()">🔈</button>
         &nbsp;&nbsp;<button class="buttlang" onclick="nButtLang();" id="nButt">vi</button>
     </div>
-    
-
-    <!--<h1>Nhà Thờ Công Giáo Anrê Dũng Lạc</h1>-->
+        <!--<h1>Nhà Thờ Công Giáo Anrê Dũng Lạc</h1>-->
     <br>
     <nav class="menu-text" id="menutext">
     <ul>
@@ -437,7 +430,7 @@ table:nth-of-type(3) td {
 
 <!-- Liên hệ -->
 <section id="sect4">
-<div id='sect4vi'>
+    <div id='sect4vi'>
     <br>    
     <h2 class="title-sect">Liên Hệ </h2>
     <h1 style="font-size:xx-large;text-align: center;">📧</h1>   
@@ -499,6 +492,7 @@ table:nth-of-type(3) td {
     </table>
 
     <br>
+
 </div>
 
 <div id='sect4en'>
