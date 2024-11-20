@@ -328,7 +328,7 @@ table:nth-of-type(3) td {
         <li><a id="menu0" href="#sect0" onclick="fchon_sec(id)">Hình Ảnh</a></li>
         <li><a id="menu1" href="#sect1" onclick="fchon_sec(id)">Giới Thiệu</a></li>
         <li><a id="menu2" href="#sect2" onclick="fchon_sec(id)">Thánh Lễ</a></li>
-        <li><a id="menu3" href="#sect3" onclick="fchon_sec(id)">Sự Kiện</a></li>
+        <li><a id="menu3" href="#sect3" onclick="fchon_sec(id)">Sinh Hoạt</a></li>
         <li><a id="menu4" href="#sect4" onclick="fchon_sec(id)">Liên Hệ</a></li>
     </ul>
     </nav>
@@ -382,7 +382,7 @@ table:nth-of-type(3) td {
 <section id="sect2">
     <div id='sect2vi'>
     <br>    
-    <h2 class="title-sect">Lễ và Thánh Lễ</h2>
+    <h2 class="title-sect">Giờ Lễ</h2>
     <h1 style="font-size:xx-large;text-align: center;">🙏</h1>    
     <br>
     <p>Thánh Lễ được cử hành vào các ngày trong tuần:<br>
@@ -402,7 +402,7 @@ table:nth-of-type(3) td {
     <div id='sect3vi'>
         
     <br>    
-    <h2 class="title-sect">Sự Kiện</h2>
+    <h2 class="title-sect">Sinh Hoạt</h2>
     <h1 style="font-size:xx-large;text-align: center;">✝️️</h1>    
     <br>
         
@@ -979,7 +979,7 @@ function dichMenu(){
     const menuarr = '{"dong": [{"vi": "Hình Ảnh", "en": "Images"},'+
                             '{"vi": "Giới Thiệu", "en": "About"},'+
                             '{"vi": "Thánh Lễ", "en": "Services"},'+
-                            '{"vi": "Sự Kiện", "en": "Events"},'+
+                            '{"vi": "Sinh Hoạt", "en": "Events"},'+
                             '{"vi": "Liên Hệ", "en": "Contact"}]}';
     const obj = JSON.parse(menuarr);
     if (maLang==='vi'){
